@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferretería del Noreste — Materiales y Herramientas</title>
+  <meta name="description" content="Venta de materiales para la construcción y ferretería. Cotiza rápido por WhatsApp. Entregas locales.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="OIP.webp" alt="Logo Ferretería" class="logo">
+        <span class="brand-name">Ferretería del Noreste</span>
+      </div>
+      <nav class="nav">
+        <a href="#categorias">Categorías</a>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto" class="btn btn--ghost">Contacto</a>
+        <a id="ctaHeader" class="btn btn--whatsapp" href="#" rel="noopener" target="_blank">WhatsApp</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Materiales y herramientas para tu obra</h1>
+          <p>Catálogo completo, asesoría rápida y entregas locales. Cotiza en minutos por WhatsApp.</p>
+          <div class="hero-ctas">
+            <a id="ctaHero" class="btn btn--whatsapp btn--lg" href="#" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+            <a href="#categorias" class="btn btn--secondary btn--lg">Ver categorías</a>
+          </div>
+          <ul class="badges">
+            <li>• Entrega local</li>
+            <li>• Marcas líderes</li>
+            <li>• Facturación</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <img src="Screenshot_20250809_132126.jpg" alt="Ferretería y materiales de construcción">
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORÍAS -->
+    <section id="categorias" class="section container">
+      <div class="section-head">
+        <h2>Categorías</h2>
+        <p>Principales líneas de producto</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="cemex-antihumedad.webp" alt="Cementos" />
+          <h3>Cementos</h3>
+          <p>Marcas nacionales y sacos a pedido.</p>
+          <a class="btn btn--light card-btn" data-category="Cementos" href="#">Cotizar</a>
+        </article>
+        <article class="card">
+          <img src="bb6195d7-b570-4f5f-b44c-af0a1a9507ad.webp" alt="Agregados" />
+          <h3>Agregados</h3>
+          <p>Arena, grava y materiales a granel.</p>
+          <a class="btn btn--light card-btn" data-category="Agregados" href="#">Cotizar</a>
+        </article>
+        <article class="card">
+          <img src="block.webp" alt="Blocks" />
+          <h3>Blocks</h3>
+          <p>Block sólido y hueco, varias medidas.</p>
+          <a class="btn btn--light card-btn" data-category="Blocks" href="#">Cotizar</a>
+        </article>
+        <article class="card">
+          <img src="varilla.webp" alt="Aceros" />
+          <h3>Aceros</h3>
+          <p>Varilla, malla, alambre recocido.</p>
+          <a class="btn btn--light card-btn" data-category="Aceros" href="#">Cotizar</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS DESTACADOS -->
+    <section id="productos" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Productos destacados</h2>
+          <p>Algunos de nuestros más solicitados</p>
+        </div>
+        <div class="product-grid">
+          <article class="product">
+            <img src="226188-a1.jpg" alt="Cemento CPC 30R">
+            <div class="product-info">
+              <h3>Cemento CPC 30R</h3>
+              <p>Alto desempeño para obra general.</p>
+              <a class="btn btn--outline quote-btn" data-product="Cemento CPC 30R" href="#">Cotizar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="product">
+            <img src="llave.webp" alt="Llave para jardín">
+            <div class="product-info">
+              <h3>Llave para jardín</h3>
+              <p>Metálica, rosca estándar 1/2”.</p>
+              <a class="btn btn--outline quote-btn" data-product="Llave para jardín" href="#">Cotizar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="product">
+            <img src="botas.png" alt="Botas para construcción">
+            <div class="product-info">
+              <h3>Botas para construcción</h3>
+              <p>Protección y comodidad todo el día.</p>
+              <a class="btn btn--outline quote-btn" data-product="Botas para construcción" href="#">Cotizar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="product">
+            <img src="aksi-pega.webp" alt="Pegamento CPVC 500 ml">
+            <div class="product-info">
+              <h3>Pegamento CPVC 500 ml</h3>
+              <p>Para instalaciones de tubería.</p>
+              <a class="btn btn--outline quote-btn" data-product="Pegamento CPVC 500 ml" href="#">Cotizar por WhatsApp</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS / MARCAS -->
+    <section id="servicios" class="section container">
+      <div class="section-head">
+        <h2>Servicios y Marcas</h2>
+        <p>Asesoría técnica y marcas reconocidas</p>
+      </div>
+      <div class="services">
+        <div class="service">
+          <h4>Entregas locales</h4>
+          <p>Contamos con logística para llevar tu material a obra.</p>
+        </div>
+        <div class="service">
+          <h4>Corte y armado</h4>
+          <p>Varilla y malla a medida según tu proyecto.</p>
+        </div>
+        <div class="service">
+          <h4>Marcas líderes</h4>
+          <p>Sika, Truper, Cemento Monterrey, entre otras.</p>
+        </div>
+      </div>
+      <div class="brand-row">
+        <img src="sika.webp" alt="Sika">
+        <img src="truper.webp" alt="Truper">
+        <img src="cementomty.webp" alt="Cemento Monterrey">
+        <img src="akasi.webp" alt="AKSI">
+      </div>
+    </section>
+
+    <!-- CONTACTO / FORM -->
+    <section id="contacto" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contacto</h2>
+          <p><strong>Dirección:</strong> Calle Ejemplo #123, Ciudad, Estado</p>
+          <p><strong>Horario:</strong> Lun–Vie 8:00–17:00 • Sáb 8:00–14:00</p>
+          <p><strong>Tel:</strong> <a href="tel:+529991112233">+52 999 111 2233</a></p>
+          <p><strong>Correo:</strong> ventas@ferre-noreste.com</p>
+          <a id="ctaContacto" class="btn btn--whatsapp" href="#" target="_blank" rel="noopener">Abrir WhatsApp</a>
+        </div>
+        <form id="waForm" class="form">
+          <h3>Cotiza por WhatsApp</h3>
+          <label>Nombre
+            <input type="text" name="nombre" placeholder="Tu nombre" required />
+          </label>
+          <label>Categoría
+            <select name="categoria">
+              <option value="Cementos">Cementos</option>
+              <option value="Agregados">Agregados</option>
+              <option value="Blocks">Blocks</option>
+              <option value="Aceros">Aceros</option>
+              <option value="Ferretería">Ferretería</option>
+            </select>
+          </label>
+          <label>Asunto
+            <input type="text" name="asunto" placeholder="¿Qué necesitas?" />
+          </label>
+          <label>Mensaje (opcional)
+            <textarea name="mensaje" rows="4" placeholder="Cuéntanos un poco más"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary">Enviar a WhatsApp</button>
+          <p class="form-note">No guardamos tus datos. Se abrirá WhatsApp con tu mensaje listo.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- WHATSAPP FLOAT -->
+  <a id="waFloat" class="wa-float" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <img src="watsap2.webp" alt="WhatsApp">
+  </a>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Ferretería del Noreste. Todos los derechos reservados.</small>
+      <div class="footer-links">
+        <a href="#">Políticas</a>
+        <a href="#">Aviso de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
